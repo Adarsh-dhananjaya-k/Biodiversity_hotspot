@@ -1,0 +1,24 @@
+{
+  "name": "bio_hotspot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^38.4.0",
+    "electron-builder": "^26.0.12",
+    "electron-reload": "^1.5.0",
+    "wait-on": "^9.0.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
